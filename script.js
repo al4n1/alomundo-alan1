@@ -16,8 +16,13 @@ let aluno1 = {
     idade:'17',
     anoLetivo:'Ensino Medio',
     materiasFavoritas: ['educaçãoFisica','programação','arte']
-}
-    console. log(aluno1.nome);
-    console. log(aluno1.idade);
-    console. log(aluno1.materiaFavoritas);
-    console. log(aluno1.materiaFavoritas[1]);
+    }
+     console. log(aluno1.nome);
+      console. log(aluno1.idade);
+       console. log(aluno1.materiasFavoritas);   
+        console. log(aluno1.materiasFavoritas[1]);
+
+        const.objeto = document.querySelector('#aluno');
+         objeto.contextContent = aluno1.nome;
+         objeto.contextContent = aluno1.idade;
+         objeto.contextContent = aluno1.aluno1.materiasFavoritas[1];
